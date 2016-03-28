@@ -21,8 +21,19 @@ textarea {
 <div>
   <div class=column>
     paste markdown here
-    <textarea id=md onchange="convert()">
-    </textarea>
+<textarea id=md onchange="convert()">
+
+# Paste Your Document In Here
+
+## And a table of contents
+
+will be generated
+
+## On the right
+
+side of this page.
+
+</textarea>
   </div><div class=column>
     TOC generated here
     <textarea id=toc>
@@ -30,7 +41,7 @@ textarea {
   </div>
 </div>
 <p>
-<button>convert</button>
+<button onclick='convert()'>convert</button>
 </p>
 <script src="bundle.js"></script>
 
